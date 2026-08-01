@@ -1,8 +1,26 @@
 aid: pluro
 name: Pluro
-description: 'Pluro is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Pluro is India''s fertility and IVF platform, built as a co-creation
+  model with doctors for patients. It delivers personalised, evidence-based reproductive
+  care through a growing network of 15+ clinics across India, combining advanced clinical
+  science, AI-assisted embryology, standardised treatment protocols, and transparent
+  pricing. Founded by Dr. Bhaskar Shah, Dr. Jaydeep Tank, and Dr. Parikshit Tank,
+  Pluro raised a Rs 125 crore Series A led by Bessemer Venture Partners in 2025. It
+  offers IVF/ICSI, IUI, ovulation induction, and a range of diagnostic and surgical
+  fertility treatments. Pluro publishes an llms.txt for AI agents but exposes no public
+  developer API.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pluro.in/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/pluro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Fertility
+- IVF
+- Reproductive Health
+- Clinics
+- India
+- Medtech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://pluro.in/
+- type: Blog
+  url: https://pluro.in/blogs
+- type: Support
+  url: https://pluro.in/contact
+- type: TermsOfService
+  url: https://pluro.in/terms
+- type: PrivacyPolicy
+  url: https://pluro.in/privacy
+- type: LLMsTxt
+  url: llms/pluro-llms.txt
+- type: DomainSecurity
+  url: security/pluro-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
