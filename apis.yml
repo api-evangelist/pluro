@@ -9,6 +9,17 @@ description: 'Pluro is India''s fertility and IVF platform, built as a co-creati
   offers IVF/ICSI, IUI, ovulation induction, and a range of diagnostic and surgical
   fertility treatments. Pluro publishes an llms.txt for AI agents but exposes no public
   developer API.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
